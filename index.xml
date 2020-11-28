@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kenvin</title>
+    <link>https://blog.imydb.com/</link>
+    <description>Recent content on Kenvin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Nov 2020 10:34:09 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.imydb.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Post_name</title>
+      <link>https://blog.imydb.com/post/post_name/</link>
+      <pubDate>Sat, 28 Nov 2020 10:34:09 +0800</pubDate>
+      
+      <guid>https://blog.imydb.com/post/post_name/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gallery_name</title>
+      <link>https://blog.imydb.com/gallery/gallery_name/</link>
+      <pubDate>Sat, 28 Nov 2020 10:11:55 +0800</pubDate>
+      
+      <guid>https://blog.imydb.com/gallery/gallery_name/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Example</title>
+      <link>https://blog.imydb.com/zone/example/</link>
+      <pubDate>Sat, 28 Nov 2020 10:11:46 +0800</pubDate>
+      
+      <guid>https://blog.imydb.com/zone/example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My First Blog</title>
+      <link>https://blog.imydb.com/post/my-first-blog/</link>
+      <pubDate>Sat, 28 Nov 2020 09:48:31 +0800</pubDate>
+      
+      <guid>https://blog.imydb.com/post/my-first-blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://blog.imydb.com/posts/hello-world/</link>
+      <pubDate>Fri, 27 Nov 2020 23:46:25 +0800</pubDate>
+      
+      <guid>https://blog.imydb.com/posts/hello-world/</guid>
+      <description>hello,hugo!</description>
+    </item>
+    
+  </channel>
+</rss>

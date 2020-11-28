@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://blog.imydb.com/</loc>
+    <lastmod>2020-11-28T10:34:09+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.imydb.com/post/post_name/</loc>
+    <lastmod>2020-11-28T10:34:09+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.imydb.com/post/</loc>
+    <lastmod>2020-11-28T10:34:09+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.imydb.com/gallery/</loc>
+    <lastmod>2020-11-28T10:11:55+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.imydb.com/gallery/gallery_name/</loc>
+    <lastmod>2020-11-28T10:11:55+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.imydb.com/zone/example/</loc>
+    <lastmod>2020-11-28T10:11:46+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.imydb.com/zone/</loc>
+    <lastmod>2020-11-28T10:11:46+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.imydb.com/post/my-first-blog/</loc>
+    <lastmod>2020-11-28T09:48:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.imydb.com/posts/hello-world/</loc>
+    <lastmod>2020-11-27T23:46:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.imydb.com/posts/</loc>
+    <lastmod>2020-11-27T23:46:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.imydb.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.imydb.com/series/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.imydb.com/tags/</loc>
+  </url>
+  
+</urlset>
