@@ -142,7 +142,10 @@ layui.use('element', function(){
         </div>
         <div class="layui-col-xs12 layui-col-sm8 layui-col-md8 about_right">
             <h1>Biography</h1>
-            <h2></h2>
+            <h2>    <p> This is BIO. You can write something here. </p>
+    <br />
+    <p>Also all html tags such as <a href="https://blog.imydb.com">link</a> are a good here.</p>
+    </h2>
         </div>
     </div>
 </div>
@@ -211,6 +214,15 @@ layui.use('element', function(){
             <div class="layui-col-md4 layui-col-sm4 layui-col-xs12">
 
                 
+                <input id="search" type="text" name="search" placeholder="Intra-Site Search" autocomplete="off" class="layui-input">
+                <script type="text/javascript">
+                    $("#search").keyup(function(event){
+                        if(event.keyCode ==13){
+                            document.location = "https://www.google.com/search?q=" + $("#search").val() + "+site%3Ahttps:\/\/blog.imydb.com\/"
+                        }
+                    });
+                </script>
+                
 
                 
                     <h1><a href="/categories">categories</a> </h1>
@@ -231,22 +243,6 @@ layui.use('element', function(){
 
 
         </div><footer>
-    
-
-    <div class="layui-container">
-        <div class="layui-row">
-            <div class="layui-col-md4 layui-col-sm6 layui-col-xs6">
-                <h3> Related Sites </h3>
-            </div>
-        </div>
-        <div class="layui-row">
-            
-            <div class="layui-col-md4 layui-col-sm6 layui-col-xs12">
-                <a href="/"><p class="footer-url">home</p></a>
-            </div>
-            
-        </div>
-    </div>
     
     
     <div class="layui-container">
