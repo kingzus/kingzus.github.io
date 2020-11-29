@@ -6,67 +6,9 @@
     <description>Recent content on Kenvin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Nov 2020 17:35:42 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.imydb.com/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Hugo Quickstart</title>
-      <link>https://blog.imydb.com/posts/hugo-quickstart/</link>
-      <pubDate>Sat, 28 Nov 2020 17:35:42 +0800</pubDate>
-      
-      <guid>https://blog.imydb.com/posts/hugo-quickstart/</guid>
-      <description>Hugo Quick Start Step 1: Install Hugo Homebrew and MacPorts, package managers for macOS, can be installed from brew.sh or macports.org respectively. See install if you are running Windows etc.
-brew install hugo # or port install hugo To verify your new install:
-hugo version Step 2: Create a New Site hugo new site quickstart The above will create a new Hugo site in a folder named quickstart.
-Step 3: Add a Theme See themes.</description>
-    </item>
-    
-    <item>
-      <title>Post_name</title>
-      <link>https://blog.imydb.com/post/post_name/</link>
-      <pubDate>Sat, 28 Nov 2020 10:34:09 +0800</pubDate>
-      
-      <guid>https://blog.imydb.com/post/post_name/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gallery_name</title>
-      <link>https://blog.imydb.com/gallery/gallery_name/</link>
-      <pubDate>Sat, 28 Nov 2020 10:11:55 +0800</pubDate>
-      
-      <guid>https://blog.imydb.com/gallery/gallery_name/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Example</title>
-      <link>https://blog.imydb.com/zone/example/</link>
-      <pubDate>Sat, 28 Nov 2020 10:11:46 +0800</pubDate>
-      
-      <guid>https://blog.imydb.com/zone/example/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>My First Blog</title>
-      <link>https://blog.imydb.com/post/my-first-blog/</link>
-      <pubDate>Sat, 28 Nov 2020 09:48:31 +0800</pubDate>
-      
-      <guid>https://blog.imydb.com/post/my-first-blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>https://blog.imydb.com/posts/hello-world/</link>
-      <pubDate>Fri, 27 Nov 2020 23:46:25 +0800</pubDate>
-      
-      <guid>https://blog.imydb.com/posts/hello-world/</guid>
-      <description>hello,hugo!</description>
-    </item>
     
   </channel>
 </rss>
