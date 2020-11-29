@@ -3,11 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.imydb.com/categories/</loc>
+    <loc>https://blog.imydb.com/post/hugo-quickstart/</loc>
+    <lastmod>2020-11-28T17:35:42+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.imydb.com/</loc>
+    <lastmod>2020-11-28T17:35:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.imydb.com/post/</loc>
+    <lastmod>2020-11-28T17:35:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.imydb.com/about/</loc>
+    <lastmod>2020-11-28T10:20:09+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.imydb.com/gallery/</loc>
+    <lastmod>2020-11-28T10:11:55+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.imydb.com/gallery/gallery_name/</loc>
+    <lastmod>2020-11-28T10:11:55+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.imydb.com/post/my-first-blog/</loc>
+    <lastmod>2020-11-28T09:48:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.imydb.com/categories/</loc>
   </url>
   
   <url>

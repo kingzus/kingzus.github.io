@@ -3,12 +3,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Kenvin - My First Blog </title>
+    <title>Kenvin - Hugo Quickstart </title>
     
     
     <meta content="Kenvin" name="keywords">
     
-    <meta content="Kenvin - A website called Kenvin" name="description">
+    <meta content="Kenvin - Hugo Quick Start Step 1: Install Hugo Homebrew and MacPorts, package managers for macOS, can be installed from brew.sh or macports.org respectively. See install if you are running Windows etc.
+brew install hugo # or port install hugo To verify your new install:
+hugo version Step 2: Create a New Site hugo new site quickstart The above will create a new Hugo site in a folder named quickstart.
+Step 3: Add a Theme See themes." name="description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     
@@ -107,7 +110,7 @@ layui.use('element', function(){
             <div class="layui-card single-card">
                 <br />
                 <blockquote class="self-elem-quote  markdown-body single-title" >
-                    <h1>My First Blog</h1>
+                    <h1>Hugo Quickstart</h1>
                     <h3 style="margin-top:10px; margin-bottom:10px"> 
     <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
     <span>2020-11-28</span>
@@ -125,7 +128,66 @@ layui.use('element', function(){
 
                 </blockquote>
                 <div class="layui-card-body markdown-body single-content">
-                    </div>
+                    <h1 id="hugo-quick-start">Hugo Quick Start</h1>
+<h2 id="step-1-install-hugo">Step 1: Install Hugo</h2>
+<p>Homebrew and MacPorts, package managers for macOS, can be installed from brew.sh or macports.org respectively. See install if you are running Windows etc.</p>
+<pre><code>brew install hugo
+# or
+port install hugo
+</code></pre><p>To verify your new install:</p>
+<pre><code>hugo version
+</code></pre><h2 id="step-2-create-a-new-site">Step 2: Create a New Site</h2>
+<pre><code>hugo new site quickstart
+</code></pre><p>The above will create a new Hugo site in a folder named quickstart.</p>
+<h2 id="step-3-add-a-theme">Step 3: Add a Theme</h2>
+<p>See themes.gohugo.io for a list of themes to consider. This quickstart uses the beautiful Ananke theme.</p>
+<p>First, download the theme from GitHub and add it to your site’s themes directory:</p>
+<pre><code>cd quickstart
+git init
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+</code></pre><p>Note for non-git users:</p>
+<ul>
+<li>If you do not have git installed, you can download the archive of the latest version of this theme from: <a href="https://github.com/budparr/gohugo-theme-ananke/archive/master.zip">https://github.com/budparr/gohugo-theme-ananke/archive/master.zip</a></li>
+<li>Extract that .zip file to get a “gohugo-theme-ananke-master” directory.</li>
+<li>Rename that directory to “ananke”, and move it into the “themes/” directory.</li>
+</ul>
+<p>Then, add the theme to the site configuration:</p>
+<pre><code>echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml
+</code></pre><h2 id="step-4-add-some-content">Step 4: Add Some Content</h2>
+<p>You can manually create content files (for example as content/<!-- raw HTML omitted -->/<!-- raw HTML omitted -->.<!-- raw HTML omitted -->) and provide metadata in them, however you can use the new command to do a few things for you (like add title and date):</p>
+<pre><code>hugo new posts/my-first-post.md
+</code></pre><p>Edit the newly created content file if you want, it will start with something like this:</p>
+<pre><code>---
+title: &quot;My First Post&quot;
+date: 2019-03-26T08:47:11+01:00
+draft: true
+---
+</code></pre><blockquote>
+<p>Drafts do not get deployed; once you finish a post, update the header of the post to say draft: false. More info here.</p>
+</blockquote>
+<h2 id="step-5-start-the-hugo-server">Step 5: Start the Hugo server</h2>
+<p>Now, start the Hugo server with drafts enabled:</p>
+<pre><code>hugo server -D
+</code></pre><p>Navigate to your new site at http://localhost:1313/.</p>
+<p>Feel free to edit or add new content and simply refresh in browser to see changes quickly (You might need to force refresh in webbrowser, something like Ctrl-R usually works).</p>
+<h2 id="step-6-customize-the-theme">Step 6: Customize the Theme</h2>
+<p>Your new site already looks great, but you will want to tweak it a little before you release it to the public</p>
+<h3 id="site-configuration">Site Configuration</h3>
+<pre><code>baseURL = &quot;https://example.org/&quot;
+languageCode = &quot;en-us&quot;
+title = &quot;My New Hugo Site&quot;
+theme = &quot;ananke&quot;
+</code></pre><p>Replace the title above with something more personal. Also, if you already have a domain ready, set the baseURL. Note that this value is not needed when running the local development server.</p>
+<blockquote>
+<p>Tip: Make the changes to the site configuration or any other file in your site while the Hugo server is running, and you will see the changes in the browser right away, though you may need to clear your cache.</p>
+</blockquote>
+<p>For theme specific configuration options, see the theme site.</p>
+<p>For further theme customization, see Customize a Theme.</p>
+<h2 id="step-7-build-static-pages">Step 7: Build static pages</h2>
+<p>It is simple. Just call:</p>
+<pre><code>hugo -D
+</code></pre><p>Output will be in ./public/ directory by default (-d/&ndash;destination flag to change it, or set publishdir in the config file).</p>
+</div>
             </div>
         </div>
 

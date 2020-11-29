@@ -6,9 +6,49 @@
     <description>Recent content on Kenvin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 28 Nov 2020 17:35:42 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.imydb.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo Quickstart</title>
+      <link>https://blog.imydb.com/post/hugo-quickstart/</link>
+      <pubDate>Sat, 28 Nov 2020 17:35:42 +0800</pubDate>
+      
+      <guid>https://blog.imydb.com/post/hugo-quickstart/</guid>
+      <description>Hugo Quick Start Step 1: Install Hugo Homebrew and MacPorts, package managers for macOS, can be installed from brew.sh or macports.org respectively. See install if you are running Windows etc.
+brew install hugo # or port install hugo To verify your new install:
+hugo version Step 2: Create a New Site hugo new site quickstart The above will create a new Hugo site in a folder named quickstart.
+Step 3: Add a Theme See themes.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://blog.imydb.com/about/</link>
+      <pubDate>Sat, 28 Nov 2020 10:20:09 +0800</pubDate>
+      
+      <guid>https://blog.imydb.com/about/</guid>
+      <description>Hey! Welcome to my personal vCard website. I am Kenvin Jo, an Engineer from Beijing city, China. I have been working for a long time in various internet-related areas, including website development, system administration of large and high-loaded systems. Specialties: Linux system administration, distributed and high-loaded web server systems, building compete service infrastructure. I love to talk with you about my unique.</description>
+    </item>
+    
+    <item>
+      <title>Gallery_name</title>
+      <link>https://blog.imydb.com/gallery/gallery_name/</link>
+      <pubDate>Sat, 28 Nov 2020 10:11:55 +0800</pubDate>
+      
+      <guid>https://blog.imydb.com/gallery/gallery_name/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My First Blog</title>
+      <link>https://blog.imydb.com/post/my-first-blog/</link>
+      <pubDate>Sat, 28 Nov 2020 09:48:31 +0800</pubDate>
+      
+      <guid>https://blog.imydb.com/post/my-first-blog/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
