@@ -6,11 +6,7 @@
     <description>Recent content in Galleries on Kenvin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Nov 2020 10:11:55 +0800</lastBuildDate>
-    
-	<atom:link href="https://blog.imydb.com/gallery/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 28 Nov 2020 10:11:55 +0800</lastBuildDate><atom:link href="https://blog.imydb.com/gallery/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gallery_name</title>
       <link>https://blog.imydb.com/gallery/gallery_name/</link>
